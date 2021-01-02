@@ -6,7 +6,7 @@ public class DryRepository implements GreetingRepository {
     Greeting greeting;
 
     @Override
-    public Greeting getGreetings(String id) {
+    public Greeting getGreetings() {
         greeting = new Greeting("Hello World");
         return greeting;
     }
