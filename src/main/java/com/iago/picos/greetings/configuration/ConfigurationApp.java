@@ -1,4 +1,4 @@
-package com.iago.picos.greetings;
+package com.iago.picos.greetings.configuration;
 
 import com.iago.picos.greetings.controller.GreetingsController;
 import com.iago.picos.greetings.repository.DryRepository;
