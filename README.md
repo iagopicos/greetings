@@ -5,6 +5,13 @@ This application has and endpoint that returns a json with an id and a default m
 http://localhost:8080/world
 ```
 ## How to run it 
+
+First compile the application with: 
+
+```
+ mvn clean package  spring-boot:repackage 
+```
+
 To run it just run in the docker-compose.yml in the terminal: 
 
 ```
