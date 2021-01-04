@@ -21,7 +21,7 @@ public class GreetingsController {
     @RequestMapping(value = "/world", method = RequestMethod.GET)
     @ResponseBody
     public Greeting getGreeting() {
-        return greetingRepository.getGreetings("null");
+        return greetingRepository.getGreetings();
 
     }
 }
